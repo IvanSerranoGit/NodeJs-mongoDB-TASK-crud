@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="card pink accent-3">
+    <div class="card-content white-text">
+      <span class="card-title">Add Work</span>
+    </div>
+    <div class="card-action">
+      <form action="/tasks/add" method="POST">
+        <div class="row">
+          <label class="white-text" for="title">Write a title</label>
+          <input type="text" name="title" placeholder="Title" id="title" class="white-text" style="margin-bottom: 2em; border:none; border-bottom: 1px solid #fff"/>
+        </div>
+        <div class="row">
+          <label class="white-text" for="description">Write a description:</label>
+          <textarea
+            name="description"
+            placeholder="Description"
+            id="description"
+            class="white-text"
+            style="border:none; border-bottom: 1px solid #fff"
+          ></textarea>
+        </div>
+        <button style="width: 100%;" class="btn waves-effect pink darken-3">
+          add
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
