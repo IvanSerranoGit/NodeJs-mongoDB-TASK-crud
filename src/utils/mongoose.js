@@ -10,5 +10,3 @@ import { MONGODB_URI } from "../config";
     console.error(error);
   }
 })();
- 
-// "mongodb://"
